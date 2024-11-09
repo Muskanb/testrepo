@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref_name == github.event.repository.default_branch
     env:
-      PRIVADO_API_TOKEN: "api15a601d935132e29d28238bf19ad7cbf51f488ee1ae07f006c"
-      PRIVADO_API_ID: "F4EBBDEEA155C7A78891D62C"
+      PRIVADO_API_TOKEN: "apiaf803817e7f2ba8c218651891d846cf1d4b37128f5a3c73a84"
+      PRIVADO_API_ID: "6878BD9EA674DD47142A594B"
       PRIVADO_API_HOST: "https://9318375740.t.gcp.privado.ai"
       PRIVADO_CI_PLATFORM: "GITHUB_ACTIONS"
       PRIVADO_DOCKER_IMAGE: 638117407428.dkr.ecr.ap-south-1.amazonaws.com/scanner-agent:latest
